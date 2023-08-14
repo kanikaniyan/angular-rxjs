@@ -1,0 +1,19 @@
+<p>rxjs-learning works!</p>
+
+<p>{{agentName}}</p>
+
+<div *ngIf="orderName">
+    {{orderName}}
+</div>
+
+<button #validate (click)="rxjsEventObservable()">event observable</button>
+
+<a #getLinkData (mouseover)="getEventObservable()">link observable</a>
+
+<h1>
+    two way binding
+</h1>
+
+<input [(ngModel)]="firstName" type="text">
+
+<h3>{{firstName}}</h3>
